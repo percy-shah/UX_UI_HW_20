@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <style>
+            #picture1{
+                float:right;
+            }
+        
+            #picture2{
+                width:35%;
+                float:left;
+            }
+            .recentProject{
+                width: 50%;
+                float: left;
+                margin-left: 65px;
+                margin-top: 85px;
+            }
+             
+        </style>
+        <link rel="stylesheet" href="css/style.css">
+        <link href="https://fonts.googleapis.com/css2?family=Akshar:wght@300;400;500;600;700&family=Oswald:wght@200;300;400;500;600;700&display=swap" rel="stylesheet">
+
+    </head>
+<header>
+     <div>
+    <nav>
+    <ul>
+        <li class="inline-block"><a class="aboutMe" href="about.html">ABOUT ME</a></li>
+        <li class="inline-block"><a class="projects" href="project.html">PROJECTS</a></li>
+        <li class="inline-block"><img src="images/PersephoneShah.png" width="150px"></li>
+        <li class="inline-block"><a class="resume" href="files/resume.pdf">RESUME</a></li>
+        <li class="inline-block"><a class="contact" href="contact.html">CONTACT</a></li>
+    </ul>
+</nav>
+    </div>
+</header>
+  <body>
+    <h2 id="hello">HELLO! MY NAME IS PERSEPHONE!</h2>
+
+<section>
+    <div>
+        <img  id="picture1" src="images/profile1.png" width="500px">
+    </div>
+<div class="aspiring">
+    <h2 >Aspiring UX Designer</h2>
+    <p>I specialize in design and enjoy solving user problems that occur when interacting with an application or website. My skills include uing Figma, Miro and Invision. I also am very adaptable to working on a team.</p>
+</div>
+    <button id="contactParent" onmouseover="mouseOver()" onmouseout="mouseOut()">CONTACT ME</button> 
+    
+</section> 
+
+    
+  <div>
+    <h2 class="RECENT">MY RECENT PROJECT</h2>
+    </div>
+<section>
+  
+    <div>
+        <img  id="picture2" src="images/block1.png" height="500px"> 
+    </div>
+    <div class="recentProject"> 
+        <h2>TEXAS REPTILE AND SMALL ANIMAL RESCUE</h2>
+        <h2>MOBILE/DESKTOP PROTOTYPE</h3>
+        <P>Redesign of an existing nonprofit website, focusing on the adoption of reptiles,birds and small animals that have been rescued by the facility. Main focus was the setup of the homepage, and adding more information for adoption.</P>
+      </div>
+        <a href="case.html">
+        <button id="casestudy"onmouseover="mouseOver()" onmouseout="mouseOut()">VIEW CASE STUDY</button> </a>
+  
+
+</section>
+    </body>
+    
+    <footer>
+        <div>
+        <img id="logo" src="images/PersephoneShah.png" width="150px">
+    </div>
+    <div class="socialmedia">
+        <img src="images/Instagram.png"width=60px>
+        <img src="images/Pinterest.png"width="60px">
+        <img src="images/Linkedin.png"width="60px">
+        <img src="images/Slack.png"width="60px">
+        <h6 id="copyright">DESIGNED AND MADE BY PERSEPHONE SHAH, 2022</h6>
+    </div>
+    </footer>
+    <div class="preloader">
+        <img src="images/purple.png">
+      </div>
+      <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+      <script>
+        document.getElementById("contactParent").addEventListener("mouseover", mouseOver);
+        document.getElementById("contactParent").addEventListener("mouseout", mouseOut);</script>
+      <script src="js/index.js"></script>
+      <script src="js/template.js"></script>
+      <script src="https://code.jquery.com/jquery-3.5.0.js"></script>
+</html>

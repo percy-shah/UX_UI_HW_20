@@ -1,0 +1,131 @@
+header{
+    display: block;
+    width: 100%; 
+    font-family:'Akshar', sans-serif;
+    font-size: 25px;
+    padding: 10px;
+    text-align: center; 
+    color:#FFFFFF ;
+    background-color:#7582AA;
+    position: sticky;
+}
+.inline-block{
+    display: inline-block;
+    vertical-align: top;
+    padding-right: 200px;
+    padding-top:15px;
+}
+.resume:visited{
+    color: #FFFFFF;
+    text-decoration: none;
+    
+}
+.resume:link{
+    color: #FFFFFF;
+    cursor: pointer;
+    text-decoration: none;
+    
+}
+body{
+    background-color: #F0F1FF;
+    max-width:2000px;
+}
+
+.PROJECTS{
+    text-align: center;
+    font-family:'Akshar', sans-serif;
+    font-size: 30px;
+}
+
+section{
+    background-color: #4E5C80;
+    
+}
+.threeProjects{
+    display: flex;
+    flex-basis: 100%;
+}
+
+#TRASAR{
+    display: block;
+    width:80%;
+    margin-right: 0px;
+    padding: 25px;
+
+    
+}
+.projectTRASAR{
+    text-align:left;
+    padding: 15px;
+    margin-top: 75px;
+    font-size:25px;
+    font-family:'Akshar', sans-serif;
+    font-weight: 400;
+    color: #FFFFFF;
+
+}
+
+#NPS{
+    display: block;
+    width:80%;
+    margin-left: 30px;
+    margin-right: 10px;
+    padding: 25px;
+    
+}
+.projectNPS{
+    text-align:left;
+    padding: 15px;
+    margin-top: 150px;
+    font-size:25px;
+    font-family:'Akshar', sans-serif;
+    font-weight: 400;
+    color: #FFFFFF;
+ 
+}
+#HU{
+    display: block;
+    width:80%;;
+    margin-left: 30px;
+    margin-right: 10px;
+    padding: 25px;
+   
+}
+.projectHopped{
+    text-align:left;
+    padding: 15px;
+    margin-top: 200px;
+    font-size:25px;
+    font-family:'Akshar', sans-serif;
+    font-weight: 400;
+    color: #FFFFFF;
+
+}
+
+footer{
+    display: inline-block;
+    width: 100%; 
+    position:relative;
+    background-color:#7582AA;
+ 
+}
+.socialmedia{
+    display: block;
+    float: right;
+    text-align: center;
+}
+
+#logo{
+    display: block;
+    position: relative;
+    padding: 15px;
+    top: 80px;
+    left: 40px;
+
+}
+#copyright{
+    font-family:'Akshar', sans-serif;
+    font-size: 25px;
+    padding: 15px;
+    color:#FFFFFF ;
+}
