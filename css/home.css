@@ -1,0 +1,206 @@
+.preloader{
+    position:fixed;
+    width:100%;
+    height:100vh;
+    z-index:100000;
+    background-color: white;
+    top:0;
+    display: flex;
+    align-items: center;
+  }
+  .preloader img{
+    animation: spin 3s ease;
+    transition:all;
+    margin:0 auto;
+    width:150px;
+  
+  }
+
+
+header{
+    display: block;
+    width: 100%; 
+    font-family:'Akshar', sans-serif;
+    font-size: 25px;
+    padding: 10px;
+    text-align: center; 
+    color:#FFFFFF ;
+    background-color:#7582AA;
+}
+.inline-block{
+    display: inline-block;
+    vertical-align: top;
+    padding-right: 50px;
+    padding-left: 50px;
+    padding-top:15px;
+}
+.resume:visited{
+    color: #FFFFFF;
+    text-decoration: none;
+    
+}
+.resume:link{
+    color: #FFFFFF;
+    cursor: pointer;
+    text-decoration: none;
+    
+}
+.about:visited{
+    color: #FFFFFF;
+    text-decoration: none;
+    
+}
+.about:link{
+    color: #FFFFFF;
+    cursor: pointer;
+    text-decoration: none;
+    
+}
+.projects:visited{
+    color: #FFFFFF;
+    text-decoration: none;
+    
+}
+.projects:link{
+    color: #FFFFFF;
+    cursor: pointer;
+    text-decoration: none;
+    
+}
+.contact:visited{
+    color: #FFFFFF;
+    text-decoration: none;
+    
+}
+.contact:link{
+    color: #FFFFFF;
+    cursor: pointer;
+    text-decoration: none;
+    
+}
+
+body{
+    background-color: #F0F1FF;
+    font-family: 'Akshar', sans-serif;
+     font-size: 20px;
+}
+#hello{
+    text-align: center ;
+}
+section{
+    display: inline-block;
+    width: 100%; 
+    height: 650px;
+    position:relative;
+    background-color:#ADA2C4;
+}
+#picture1{
+    display: block;
+    margin-left: auto;
+    right: 40px;
+    top:55px;
+    position: relative;
+    padding: 25px;
+    
+}
+h2{
+    color: black;
+    font-family:'Akshar', sans-serif;
+    font-size: 30px;
+    font-weight: 600;
+}
+p{
+    color: black;
+    font-family:'Oswald', sans-serif;
+    font-size: 30px;
+    display: block;
+}
+.aspiring{
+    padding: 25px;
+    margin-left:0%;
+    margin-right:50%;
+    margin-top: 50px;
+    
+
+}
+button{
+    background-color:#4E5C80 ;
+    color: #FFFFFF;
+    font-family:'Akshar', sans-serif;
+    font-size: 25px;
+    border-radius: 20px;
+    padding: 25px;
+}
+#contactParent{
+    display: block;
+    position: relative;
+    padding: 25px;
+    margin-left:250px;
+    margin-right: 0 auto;
+    cursor: pointer;
+
+}
+.RECENT{
+    text-align: center;
+    color: black;
+}
+
+#picture2{
+    display: block;
+    left: 15px;
+    top:75px;
+    position: relative;
+}
+    
+#casestudy{
+    display: block;
+     position: relative;
+     padding: 30px;
+     margin-top:450px;
+     margin-left:50%;
+     margin-right:0 auto;
+     cursor: pointer;
+    
+}
+footer{
+    display: inline-block;
+    width: 100%; 
+    position:relative;
+    background-color:#7582AA;
+ 
+}
+.socialmedia{
+    display: block;
+    float: right;
+    text-align: center;
+}
+
+#logo{
+    display: block;
+    position: relative;
+    top: 80px;
+    left: 40px;
+    padding: 15px;
+
+}
+#copyright{
+    font-family:'Akshar', sans-serif;
+    font-size: 25px;
+    padding: 15px;
+    color:#FFFFFF ;
+
+}
+
+@keyframes spin {
+    0% {
+      transform: rotate(0deg);
+    }
+    50% {
+      transform: rotate(360deg);
+    }
+    100% {
+      transform: rotate(720deg);
+    }
+  }
+  
+   
